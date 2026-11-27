@@ -2,42 +2,11 @@
 
 <sub>Passing through? <a href="#sign-the-release">Sign the v3 release</a> and your avatar lands on this page</sub>
 
-## Pick your path
+<a href="#for-hiring"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/path-hiring-narrow-dark.svg"><source media="(max-width: 600px)" srcset="./assets/path-hiring-narrow-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/path-hiring-wide-dark.svg"><img src="./assets/path-hiring-wide-light.svg" width="100%" alt="Hiring? The 30-second version: what I ship and where I'd fit"></picture></a>
 
-<details>
-<summary><b>I'm hiring</b> · role fit, proof, contact</summary>
-<br>
+<a href="#how-its-built"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/path-developer-narrow-dark.svg"><source media="(max-width: 600px)" srcset="./assets/path-developer-narrow-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/path-developer-wide-dark.svg"><img src="./assets/path-developer-wide-light.svg" width="100%" alt="A developer? How the scraper, the API and this profile are built"></picture></a>
 
-- **Looking for** SDE and full-stack roles. Class of 2026, based in Mumbai
-- **Doing now** full-stack at TheBoredMonkey since June 2026: internal tools and client apps that run in production
-- **Fastest proof** [NODD MEN](https://unseen-men.vercel.app) (product UI), [Web Scrapper](https://github.com/saigonga/Web-Scrapper) (Python, CI), [finance-backend](https://github.com/saigonga/finance-backend) (API design, auth)
-- **Talk to me** on [LinkedIn](https://www.linkedin.com/in/sai-gonga-9623311b3/)
-
-</details>
-
-<details>
-<summary><b>I'm a developer</b> · how things are built</summary>
-<br>
-
-- **Web Scrapper** uses httpx for static pages and Playwright for JavaScript-heavy ones, then BeautifulSoup splits the page into sections, links, tables and metadata. CI runs on every push
-- **finance-backend** is FastAPI with role-based access over JWT, SQLAlchemy models, Alembic migrations and Pydantic v2 validation
-- **AI × BS Panel** signs people in with Google through NextAuth, runs Prisma on SQLite locally and Postgres when hosted, and only shows money views to money teams
-- **TBM Studio** talks to the Meta Graph API with app-review-scoped permissions and keeps shortlists in Supabase
-- **This profile** is Python-generated SVG. One Action rebuilds the changelog every morning, another runs the guestbook from issues. [Read the scripts](./scripts)
-
-</details>
-
-<details>
-<summary><b>I need something built</b> · what I make, where to start</summary>
-<br>
-
-- **Dashboards and internal tools** like [SOV Dashboard](https://sov-dashboard-for-tbm.vercel.app) and AI × BS Panel
-- **Scrapers and data pipelines** like [Web Scrapper](https://web-scrapper-kohl.vercel.app)
-- **APIs and backends** like [finance-backend](https://github.com/saigonga/finance-backend)
-- **Sites your team can edit** like [TBM Portfolio](https://tbmportfolio.vercel.app), with its own admin page
-- **Start with** a message on [LinkedIn](https://www.linkedin.com/in/sai-gonga-9623311b3/) or [Instagram](https://instagram.com/gongasai)
-
-</details>
+<a href="#work-with-me"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/path-client-narrow-dark.svg"><source media="(max-width: 600px)" srcset="./assets/path-client-narrow-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/path-client-wide-dark.svg"><img src="./assets/path-client-wide-light.svg" width="100%" alt="Need something built? Dashboards, scrapers, APIs and sites your team can edit"></picture></a>
 
 ## Releases
 
@@ -56,6 +25,29 @@
 <picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/release-v0-narrow-dark.svg"><source media="(max-width: 600px)" srcset="./assets/release-v0-narrow-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/release-v0-wide-dark.svg"><img src="./assets/release-v0-wide-light.svg" width="100%" alt="Release v0, HTML and CSS, January to March 2025: Bento grid, conference ticket, news homepage, social link page."></picture>
 
 <sub>Open · [Bento grid](https://projects-rouge-ten.vercel.app) · [Conference ticket](https://conference-ticket-generator-navy.vercel.app) · [News homepage](https://news-homepage-ten-omega.vercel.app) · [Social link page](https://social-link-page-one.vercel.app)</sub>
+
+## For hiring
+
+- **Looking for** SDE and full-stack roles. Class of 2026, based in Mumbai
+- **Doing now** full-stack at TheBoredMonkey since June 2026: internal tools and client apps that run in production
+- **Fastest proof** [NODD MEN](https://unseen-men.vercel.app) (product UI), [Web Scrapper](https://github.com/saigonga/Web-Scrapper) (Python, CI), [finance-backend](https://github.com/saigonga/finance-backend) (API design, auth)
+- **Talk to me** on [LinkedIn](https://www.linkedin.com/in/sai-gonga-9623311b3/)
+
+## How it's built
+
+- **Web Scrapper** uses httpx for static pages and Playwright for JavaScript-heavy ones, then BeautifulSoup splits the page into sections, links, tables and metadata. CI runs on every push
+- **finance-backend** is FastAPI with role-based access over JWT, SQLAlchemy models, Alembic migrations and Pydantic v2 validation
+- **AI × BS Panel** signs people in with Google through NextAuth, runs Prisma on SQLite locally and Postgres when hosted, and only shows money views to money teams
+- **TBM Studio** talks to the Meta Graph API with app-review-scoped permissions and keeps shortlists in Supabase
+- **This profile** is Python-generated SVG. One Action rebuilds the changelog every morning, another runs the guestbook from issues. [Read the scripts](./scripts)
+
+## Work with me
+
+- **Dashboards and internal tools** like [SOV Dashboard](https://sov-dashboard-for-tbm.vercel.app) and AI × BS Panel
+- **Scrapers and data pipelines** like [Web Scrapper](https://web-scrapper-kohl.vercel.app)
+- **APIs and backends** like [finance-backend](https://github.com/saigonga/finance-backend)
+- **Sites your team can edit** like [TBM Portfolio](https://tbmportfolio.vercel.app), with its own admin page
+- **Start with** a message on [LinkedIn](https://www.linkedin.com/in/sai-gonga-9623311b3/) or [Instagram](https://instagram.com/gongasai)
 
 ## Toolbox
 
