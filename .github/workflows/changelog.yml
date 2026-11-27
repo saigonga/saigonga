@@ -1,0 +1,35 @@
+name: Update changelog card
+
+on:
+  schedule:
+    - cron: "30 0 * * *" # 06:00 IST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/changelog.py]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Get JetBrains Mono (OFL)
+        run: |
+          curl -sSL -o jbm.zip https://github.com/JetBrains/JetBrainsMono/releases/download/v2.304/JetBrainsMono-2.304.zip
+          mkdir -p fonts && unzip -q -j jbm.zip 'fonts/ttf/JetBrainsMono-Regular.ttf' 'fonts/ttf/JetBrainsMono-Medium.ttf' -d fonts
+      - name: Build card
+        run: uv run --no-project --with 'fonttools[woff]' scripts/changelog.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if changed
+        run: |
+          git add assets/changelog-*.svg
+          git diff --cached --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh changelog card"
+          git push
