@@ -1,24 +1,50 @@
-<h1 align="center">Hi 👋, I'm SAI GONGA</h1>
-<h3 align="center">Driven Web Developer | Mastering Full-Stack | Thriving on change and eager to learn | Let's build something amazing together!</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/changelog-dark.svg">
+  <img src="./assets/changelog-light.svg" width="100%" alt="Sai Gonga, full-stack developer in Mumbai, Class of 2026, open to SDE roles. Timeline of 26 repos from January 2025 to November 2026, grouped into four releases.">
+</picture>
 
-# 💫 About Me:
-🔭 I’m currently portfolio<br>🌱 I’m currently learning CI/CD pipelines, PostgreSql<br>⚡ Fun fact  don't ask
+## v3 · client work at TBM
 
+`Jun 2026 → now` · Internal tools and client apps at TheBoredMonkey, a content-led growth agency
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/gongasai) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sai-gonga-9623311b3/) 
+| Project | What it does | Built with | |
+|---|---|---|---|
+| [NODD MEN](https://github.com/saigonga/Unseen-Men) | Facial analysis for men's grooming. One photo in, facial landmarks mapped, nine structural attributes classified | TypeScript | [live](https://unseen-men.vercel.app) |
+| [TBM Studio](https://github.com/saigonga/INSTAGRAMTBM) | Search Instagram's Creator Marketplace, evaluate creators, build shortlists per campaign | Next.js · Supabase · Meta Graph API | [live](https://instagramtbm-alpha.vercel.app) |
+| [SOV Dashboard](https://github.com/saigonga/SOV-Dashboard-for-TBM) | Share of voice analytics for brand campaigns | Next.js · Python · PostgreSQL | [live](https://sov-dashboard-for-tbm.vercel.app) |
+| [AI × BS Panel](https://github.com/saigonga/BrandSolution-panel-) | One daily project board for two teams, with money views only for the people who need them | Next.js 16 · NextAuth · Prisma · Postgres | |
+| [TBM Portfolio](https://github.com/saigonga/TBMPortfolio) | The agency's case study site, with an admin page to edit it without code | JavaScript · Vercel | [live](https://tbmportfolio.vercel.app) |
 
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Prettier](https://img.shields.io/badge/prettier-%23F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=black)
-# 📊 GitHub Stats:
-![saigonga's Streak](https://github-readme-streak-stats.herokuapp.com/?user=saigonga&theme=vue-dark&hide_border=true)
+## v2 · backend + data
 
+`Jan → Apr 2026` · APIs, scraping, auth and automation
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=gruvbox)
+| Project | What it does | Built with | |
+|---|---|---|---|
+| [Web Scrapper](https://github.com/saigonga/Web-Scrapper) | Turns static and JavaScript-heavy pages into structured sections, links, tables and metadata | FastAPI · Playwright · BeautifulSoup · CI | [live](https://web-scrapper-kohl.vercel.app) |
+| [finance-backend](https://github.com/saigonga/finance-backend) | API for a finance dashboard with role-based access, records and analytics | FastAPI · PostgreSQL · SQLAlchemy · JWT | |
+| [TaskFlow](https://github.com/saigonga/Task-Manager) | Task manager with accounts and auth | React · Express · MongoDB · JWT | [live](https://task-manager-flame-three.vercel.app) |
+| [n8n workflow](https://github.com/saigonga/N8N-workflow-) | An agentic automation workflow | n8n | |
 
-  ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/saigonga34) 
+## v1 · react apps
 
-  
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+`May → Jul 2025` · [Gemini 2.0 clone](https://github.com/saigonga/Gemini_2.0-clone) · [Spotify 2.0](https://github.com/saigonga/Spotify-2.0) · [File sharing](https://github.com/saigonga/File-Sharing-App) · [E-commerce](https://github.com/saigonga/E-Commerce-Website) · [Dashboard](https://dashboard-ten-vert-29.vercel.app) · [Todo](https://todo-app-phi-steel.vercel.app) · [Form validation](https://form-validation-using-regular-expression.vercel.app) · [Movie app](https://github.com/saigonga/MovieApp) · [Shoe brand page](https://github.com/saigonga/Shoe_Brand_page) · [Blockchain voting](https://github.com/saigonga/Blockchain_based_voting_system) · [DSA practice](https://github.com/saigonga/DSA)
+
+## v0 · html + css
+
+`Jan → Mar 2025` · [Bento grid](https://projects-rouge-ten.vercel.app) · [Conference ticket generator](https://conference-ticket-generator-navy.vercel.app) · [News homepage](https://news-homepage-ten-omega.vercel.app) · [Social link page](https://social-link-page-one.vercel.app)
+
+## Toolbox
+
+| Layer | Tools |
+|---|---|
+| Frontend | React · Next.js · TypeScript · Tailwind · Redux · React Hook Form |
+| Backend | Node · Express · FastAPI · Socket.io · JWT |
+| Data | PostgreSQL · MongoDB · MySQL · Prisma · SQLAlchemy · Supabase |
+| Ship | Vercel · Render · Netlify · Firebase · GitHub Actions · n8n · Playwright |
+
+## Next release
+
+Learning CI/CD pipelines and going deeper on PostgreSQL. Fun fact: don't ask
+
+[LinkedIn](https://www.linkedin.com/in/sai-gonga-9623311b3/) · [Instagram](https://instagram.com/gongasai)
