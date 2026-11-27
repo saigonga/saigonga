@@ -13,10 +13,11 @@ OUT = Path(__file__).resolve().parent.parent / "assets"
 START = dt.date(2025, 1, 1)
 # editorial: (first month, last month, version, description); the last release runs to today
 RELEASES = [(0, 2, "v0", "html + css"), (4, 6, "v1", "react apps"),
-            (12, 15, "v2", "backend + data"), (17, None, "v3", "client work at TBM")]
-# private client repos the Action token cannot see: (created, name, live)
-PRIVATE = [("2026-06-22", "SOV-Dashboard-for-TBM", True), ("2026-07-30", "INSTAGRAMTBM", True),
-           ("2026-08-31", "Final-SOV-plannel-", False), ("2026-11-23", "TBMPortfolio", True)]
+            (12, 15, "v2", "backend + data"), (17, None, "v3", "client work")]
+# private client repos the Action token cannot see: (created, display name, live).
+# Display names are generic on purpose: the client is not named on the profile.
+PRIVATE = [("2026-06-22", "sov-dashboard", True), ("2026-07-30", "creator-search", True),
+           ("2026-08-31", "sov-planner", False), ("2026-11-23", "case-study-site", True)]
 SENTENCE = "I build dashboards, scrapers and APIs, and ship them live"
 
 # per-size layout (DESIGN.md: wide 880, narrow 440)
@@ -90,7 +91,7 @@ def card(t, size, dots, commits, months, latest, total) -> str:
     # serif sentence: ~0.42em per glyph
     for i, line in enumerate(wrap(SENTENCE, c["sent"] * 0.7, W - 2 * P)):
         a(f'<text class="s" x="{P}" y="{c["sent_y"] + i * c["sent"] * 1.25}" font-size="{c["sent"]}" fill="{t["text2"]}">{line}</text>')
-    meta = ["Mumbai · Class of 2026 · Full-stack at TBM", f"{len(dots)} repos · {total:,} contributions since Jan 2025"]
+    meta = ["Mumbai · Class of 2026 · Full-stack developer", f"{len(dots)} repos · {total:,} contributions since Jan 2025"]
     if size == "wide":
         meta = [" · ".join(meta)]
     for i, line in enumerate(meta):

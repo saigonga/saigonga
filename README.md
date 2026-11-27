@@ -10,9 +10,9 @@
 
 ## Releases
 
-<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/release-v3-narrow-dark.svg"><source media="(max-width: 600px)" srcset="./assets/release-v3-narrow-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/release-v3-wide-dark.svg"><img src="./assets/release-v3-wide-light.svg" width="100%" alt="Release v3, client work at TBM, June 2026 to now: NODD MEN, TBM Studio, SOV Dashboard, AI × BS Panel, TBM Portfolio."></picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/release-v3-narrow-dark.svg"><source media="(max-width: 600px)" srcset="./assets/release-v3-narrow-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/release-v3-wide-dark.svg"><img src="./assets/release-v3-wide-light.svg" width="100%" alt="Release v3, client work, June 2026 to now: NODD MEN, creator search, share-of-voice dashboard, team project board, case-study site."></picture>
 
-<sub>Open · [NODD MEN](https://unseen-men.vercel.app) · [TBM Studio](https://instagramtbm-alpha.vercel.app) · [SOV Dashboard](https://sov-dashboard-for-tbm.vercel.app) · [AI × BS Panel](https://github.com/saigonga/BrandSolution-panel-) · [TBM Portfolio](https://tbmportfolio.vercel.app) · [NODD MEN code](https://github.com/saigonga/Unseen-Men) · three of these are private client repos, so they link to the live apps</sub>
+<sub>Open · [NODD MEN](https://unseen-men.vercel.app) · [NODD MEN code](https://github.com/saigonga/Unseen-Men) · the other four are private client work, so they are not linked</sub>
 
 <picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/release-v2-narrow-dark.svg"><source media="(max-width: 600px)" srcset="./assets/release-v2-narrow-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/release-v2-wide-dark.svg"><img src="./assets/release-v2-wide-light.svg" width="100%" alt="Release v2, backend and data, January to April 2026: Web Scrapper, finance-backend, TaskFlow, n8n workflow."></picture>
 

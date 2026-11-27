@@ -13,14 +13,14 @@ OUT = Path(__file__).resolve().parent.parent / "assets"
 
 # version, title, dates, summary, screenshots (front first), projects (name, line, live)
 RELEASES = [
-    ("v3", "Client work at TBM", "Jun 2026 → now",
-     "Internal tools and client apps for a content-led growth agency in Mumbai",
-     ["unseen-men", "tbm-portfolio"],
+    ("v3", "Client work", "Jun 2026 → now",
+     "Internal tools and client apps for brand and marketing teams",
+     ["unseen-men"],
      [("NODD MEN", "Facial analysis for men's grooming from one photo", True),
-      ("TBM Studio", "Search Instagram creators, build campaign shortlists", True),
-      ("SOV Dashboard", "Share of voice analytics for brand campaigns", True),
-      ("AI × BS Panel", "One project board for two teams, money views gated", False),
-      ("TBM Portfolio", "Case-study site with an admin page to edit it live", True)]),
+      ("Creator search", "Search Instagram creators, build campaign shortlists", True),
+      ("SOV dashboard", "Share-of-voice analytics for brand campaigns", True),
+      ("Team project board", "One board for two teams, money views gated", False),
+      ("Case-study site", "Agency site with an admin page to edit it live", True)]),
     ("v2", "Backend and data", "Jan → Apr 2026",
      "APIs, scraping, auth and automation, each with a real use behind it",
      ["web-scrapper"],
