@@ -3,6 +3,45 @@
   <img src="./assets/changelog-light.svg" width="100%" alt="Sai Gonga, full-stack developer in Mumbai, Class of 2026, open to SDE roles. Timeline of every repo since January 2025, with contributions per month, grouped into four releases.">
 </picture>
 
+<sub>Passing through? <a href="#sign-the-release">Sign the v3 release</a> and your avatar lands on this page</sub>
+
+## Pick your path
+
+<details>
+<summary><b>I'm hiring</b> · role fit, proof, contact</summary>
+<br>
+
+- **Looking for** SDE and full-stack roles. Class of 2026, based in Mumbai
+- **Doing now** full-stack at TheBoredMonkey since June 2026: internal tools and client apps that run in production
+- **Fastest proof** [NODD MEN](https://unseen-men.vercel.app) (product UI), [Web Scrapper](https://github.com/saigonga/Web-Scrapper) (Python, CI), [finance-backend](https://github.com/saigonga/finance-backend) (API design, auth)
+- **Talk to me** on [LinkedIn](https://www.linkedin.com/in/sai-gonga-9623311b3/)
+
+</details>
+
+<details>
+<summary><b>I'm a developer</b> · how things are built</summary>
+<br>
+
+- **Web Scrapper** uses httpx for static pages and Playwright for JavaScript-heavy ones, then BeautifulSoup splits the page into sections, links, tables and metadata. CI runs on every push
+- **finance-backend** is FastAPI with role-based access over JWT, SQLAlchemy models, Alembic migrations and Pydantic v2 validation
+- **AI × BS Panel** signs people in with Google through NextAuth, runs Prisma on SQLite locally and Postgres when hosted, and only shows money views to money teams
+- **TBM Studio** talks to the Meta Graph API with app-review-scoped permissions and keeps shortlists in Supabase
+- **This profile** is Python-generated SVG. One Action rebuilds the changelog every morning, another runs the guestbook from issues. [Read the scripts](./scripts)
+
+</details>
+
+<details>
+<summary><b>I need something built</b> · what I make, where to start</summary>
+<br>
+
+- **Dashboards and internal tools** like [SOV Dashboard](https://sov-dashboard-for-tbm.vercel.app) and AI × BS Panel
+- **Scrapers and data pipelines** like [Web Scrapper](https://web-scrapper-kohl.vercel.app)
+- **APIs and backends** like [finance-backend](https://github.com/saigonga/finance-backend)
+- **Sites your team can edit** like [TBM Portfolio](https://tbmportfolio.vercel.app), with its own admin page
+- **Start with** a message on [LinkedIn](https://www.linkedin.com/in/sai-gonga-9623311b3/) or [Instagram](https://instagram.com/gongasai)
+
+</details>
+
 ## Selected work
 
 <p>
@@ -53,6 +92,12 @@
 | Backend | Node · Express · FastAPI · Socket.io · JWT |
 | Data | PostgreSQL · MongoDB · MySQL · Prisma · SQLAlchemy · Supabase |
 | Ship | Vercel · Render · Netlify · Firebase · GitHub Actions · n8n · Playwright |
+
+## Sign the release
+
+<a href="https://github.com/saigonga/saigonga/issues/new?title=sign%3A%20v3&body=note%3A%20"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/guestbook-dark.svg"><img src="./assets/guestbook-light.svg" width="100%" alt="Guestbook for release v3. Click to sign with a one-line note."></picture></a>
+
+<sub>[Sign v3 →](https://github.com/saigonga/saigonga/issues/new?title=sign%3A%20v3&body=note%3A%20) It opens an issue with the title filled in. Add a note if you like, submit, and a bot adds your avatar within a minute</sub>
 
 ## Next release
 
