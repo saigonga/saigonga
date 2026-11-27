@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [scripts/changelog.py]
+    paths: [scripts/changelog.py, scripts/design.py]
 
 permissions:
   contents: write
@@ -17,10 +17,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v6
-      - name: Get JetBrains Mono (OFL)
+      - name: Get fonts (JetBrains Mono, Instrument Serif, both OFL)
         run: |
           curl -sSL -o jbm.zip https://github.com/JetBrains/JetBrainsMono/releases/download/v2.304/JetBrainsMono-2.304.zip
           mkdir -p fonts && unzip -q -j jbm.zip 'fonts/ttf/JetBrainsMono-Regular.ttf' 'fonts/ttf/JetBrainsMono-Medium.ttf' -d fonts
+          curl -sSL -o fonts/InstrumentSerif-Regular.ttf https://github.com/google/fonts/raw/main/ofl/instrumentserif/InstrumentSerif-Regular.ttf
       - name: Build card
         run: uv run --no-project --with 'fonttools[woff]' scripts/changelog.py
         env:

@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/changelog-dark.svg">
-  <img src="./assets/changelog-light.svg" width="100%" alt="Sai Gonga, full-stack developer in Mumbai, Class of 2026, open to SDE roles. Timeline of every repo since January 2025, with contributions per month, grouped into four releases.">
-</picture>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/changelog-narrow-dark.svg"><source media="(max-width: 600px)" srcset="./assets/changelog-narrow-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/changelog-wide-dark.svg"><img src="./assets/changelog-wide-light.svg" width="100%" alt="Sai Gonga, full-stack developer in Mumbai, Class of 2026, open to SDE roles. Timeline of every repo since January 2025 with contributions per month, grouped into four releases."></picture>
 
 <sub>Passing through? <a href="#sign-the-release">Sign the v3 release</a> and your avatar lands on this page</sub>
 
@@ -42,47 +39,23 @@
 
 </details>
 
-## Selected work
+## Releases
 
-<p>
-<a href="https://unseen-men.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work/unseen-men-dark.svg"><img src="./assets/work/unseen-men-light.svg" width="49%" alt="NODD MEN: facial analysis for men's grooming"></picture></a>
-<a href="https://tbmportfolio.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work/tbm-portfolio-dark.svg"><img src="./assets/work/tbm-portfolio-light.svg" width="49%" alt="TBM Portfolio: agency case-study site with a live admin editor"></picture></a>
-</p>
-<p>
-<a href="https://web-scrapper-kohl.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work/web-scrapper-dark.svg"><img src="./assets/work/web-scrapper-light.svg" width="49%" alt="Web Scrapper: turns any page into structured JSON"></picture></a>
-<a href="https://instagramtbm-alpha.vercel.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work/instagramtbm-dark.svg"><img src="./assets/work/instagramtbm-light.svg" width="49%" alt="TBM Studio: Instagram creator search and campaign shortlists"></picture></a>
-</p>
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/release-v3-narrow-dark.svg"><source media="(max-width: 600px)" srcset="./assets/release-v3-narrow-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/release-v3-wide-dark.svg"><img src="./assets/release-v3-wide-light.svg" width="100%" alt="Release v3, client work at TBM, June 2026 to now: NODD MEN, TBM Studio, SOV Dashboard, AI × BS Panel, TBM Portfolio."></picture>
 
-## v3 · client work at TBM
+<sub>Open · [NODD MEN](https://unseen-men.vercel.app) · [TBM Studio](https://instagramtbm-alpha.vercel.app) · [SOV Dashboard](https://sov-dashboard-for-tbm.vercel.app) · [AI × BS Panel](https://github.com/saigonga/BrandSolution-panel-) · [TBM Portfolio](https://tbmportfolio.vercel.app) · [NODD MEN code](https://github.com/saigonga/Unseen-Men) · three of these are private client repos, so they link to the live apps</sub>
 
-`Jun 2026 → now` · Internal tools and client apps at TheBoredMonkey, a content-led growth agency
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/release-v2-narrow-dark.svg"><source media="(max-width: 600px)" srcset="./assets/release-v2-narrow-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/release-v2-wide-dark.svg"><img src="./assets/release-v2-wide-light.svg" width="100%" alt="Release v2, backend and data, January to April 2026: Web Scrapper, finance-backend, TaskFlow, n8n workflow."></picture>
 
-| Project | What it does | Built with | |
-|---|---|---|---|
-| [NODD MEN](https://github.com/saigonga/Unseen-Men) | Facial analysis for men's grooming. One photo in, facial landmarks mapped, nine structural attributes classified | TypeScript | [live](https://unseen-men.vercel.app) |
-| [AI × BS Panel](https://github.com/saigonga/BrandSolution-panel-) | One daily project board for two teams, with money views only for the people who need them | Next.js 16 · NextAuth · Prisma · Postgres | |
-| TBM Studio | Search Instagram's Creator Marketplace, evaluate creators, build shortlists per campaign | Next.js · Supabase · Meta Graph API | [live](https://instagramtbm-alpha.vercel.app) · private repo |
-| SOV Dashboard | Share of voice analytics for brand campaigns | Next.js · Python · PostgreSQL | [live](https://sov-dashboard-for-tbm.vercel.app) · private repo |
-| TBM Portfolio | The agency's case-study site, with an admin page to edit it without code | JavaScript · Vercel | [live](https://tbmportfolio.vercel.app) · private repo |
+<sub>Open · [Web Scrapper](https://web-scrapper-kohl.vercel.app) ([code](https://github.com/saigonga/Web-Scrapper)) · [finance-backend](https://github.com/saigonga/finance-backend) · [TaskFlow](https://task-manager-flame-three.vercel.app) ([code](https://github.com/saigonga/Task-Manager)) · [n8n workflow](https://github.com/saigonga/N8N-workflow-)</sub>
 
-## v2 · backend + data
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/release-v1-narrow-dark.svg"><source media="(max-width: 600px)" srcset="./assets/release-v1-narrow-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/release-v1-wide-dark.svg"><img src="./assets/release-v1-wide-light.svg" width="100%" alt="Release v1, React apps, May to July 2025: eleven projects including a dashboard, todo app and Gemini clone."></picture>
 
-`Jan → Apr 2026` · APIs, scraping, auth and automation
+<sub>Open · [Dashboard](https://dashboard-ten-vert-29.vercel.app) · [Todo](https://todo-app-phi-steel.vercel.app) · [Form validation](https://form-validation-using-regular-expression.vercel.app) · [Gemini 2.0 clone](https://github.com/saigonga/Gemini_2.0-clone) · [Spotify 2.0](https://github.com/saigonga/Spotify-2.0) · [File sharing](https://github.com/saigonga/File-Sharing-App) · [E-commerce](https://github.com/saigonga/E-Commerce-Website) · [Movie app](https://github.com/saigonga/MovieApp) · [Shoe brand page](https://github.com/saigonga/Shoe_Brand_page) · [Blockchain voting](https://github.com/saigonga/Blockchain_based_voting_system) · [DSA practice](https://github.com/saigonga/DSA)</sub>
 
-| Project | What it does | Built with | |
-|---|---|---|---|
-| [Web Scrapper](https://github.com/saigonga/Web-Scrapper) | Turns static and JavaScript-heavy pages into structured sections, links, tables and metadata | FastAPI · Playwright · BeautifulSoup · CI | [live](https://web-scrapper-kohl.vercel.app) |
-| [finance-backend](https://github.com/saigonga/finance-backend) | API for a finance dashboard with role-based access, records and analytics | FastAPI · PostgreSQL · SQLAlchemy · JWT | |
-| [TaskFlow](https://github.com/saigonga/Task-Manager) | Task manager with accounts and auth | React · Express · MongoDB · JWT | [live](https://task-manager-flame-three.vercel.app) |
-| [n8n workflow](https://github.com/saigonga/N8N-workflow-) | An agentic automation workflow | n8n | |
+<picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/release-v0-narrow-dark.svg"><source media="(max-width: 600px)" srcset="./assets/release-v0-narrow-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/release-v0-wide-dark.svg"><img src="./assets/release-v0-wide-light.svg" width="100%" alt="Release v0, HTML and CSS, January to March 2025: Bento grid, conference ticket, news homepage, social link page."></picture>
 
-## v1 · react apps
-
-`May → Jul 2025` · [Gemini 2.0 clone](https://github.com/saigonga/Gemini_2.0-clone) · [Spotify 2.0](https://github.com/saigonga/Spotify-2.0) · [File sharing](https://github.com/saigonga/File-Sharing-App) · [E-commerce](https://github.com/saigonga/E-Commerce-Website) · [Dashboard](https://dashboard-ten-vert-29.vercel.app) · [Todo](https://todo-app-phi-steel.vercel.app) · [Form validation](https://form-validation-using-regular-expression.vercel.app) · [Movie app](https://github.com/saigonga/MovieApp) · [Shoe brand page](https://github.com/saigonga/Shoe_Brand_page) · [Blockchain voting](https://github.com/saigonga/Blockchain_based_voting_system) · [DSA practice](https://github.com/saigonga/DSA)
-
-## v0 · html + css
-
-`Jan → Mar 2025` · [Bento grid](https://projects-rouge-ten.vercel.app) · [Conference ticket generator](https://conference-ticket-generator-navy.vercel.app) · [News homepage](https://news-homepage-ten-omega.vercel.app) · [Social link page](https://social-link-page-one.vercel.app)
+<sub>Open · [Bento grid](https://projects-rouge-ten.vercel.app) · [Conference ticket](https://conference-ticket-generator-navy.vercel.app) · [News homepage](https://news-homepage-ten-omega.vercel.app) · [Social link page](https://social-link-page-one.vercel.app)</sub>
 
 ## Toolbox
 
@@ -95,7 +68,7 @@
 
 ## Sign the release
 
-<a href="https://github.com/saigonga/saigonga/issues/new?title=sign%3A%20v3&body=note%3A%20"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/guestbook-dark.svg"><img src="./assets/guestbook-light.svg" width="100%" alt="Guestbook for release v3. Click to sign with a one-line note."></picture></a>
+<a href="https://github.com/saigonga/saigonga/issues/new?title=sign%3A%20v3&body=note%3A%20"><picture><source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/guestbook-narrow-dark.svg"><source media="(max-width: 600px)" srcset="./assets/guestbook-narrow-light.svg"><source media="(prefers-color-scheme: dark)" srcset="./assets/guestbook-wide-dark.svg"><img src="./assets/guestbook-wide-light.svg" width="100%" alt="Guestbook for release v3. Click to sign with a one-line note."></picture></a>
 
 <sub>[Sign v3 →](https://github.com/saigonga/saigonga/issues/new?title=sign%3A%20v3&body=note%3A%20) It opens an issue with the title filled in. Add a note if you like, submit, and a bot adds your avatar within a minute</sub>
 
